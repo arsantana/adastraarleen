@@ -1,5 +1,13 @@
 import React from "react"
+import { Container } from "../components"
+import GlobalTemps from '../projects/GlobalTemps'
 
-export default function Home() {
-  return <div>Hello worldy!</div>
+const IndexPage = () => {
+  return(
+    <Container>
+      <h1> Hello World! </h1>
+    </Container>
+  )
 }
+
+export default IndexPage;
